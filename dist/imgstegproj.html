@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bleu Strnad</title>  
+  <meta name="keywords" content="Bleu Strnad">
+  <meta name = "author" content="Bleu Strnad">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class=>
+<!-- Nav Bar-->
+  <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <span class="ml-3 text-xl">Bleu Strnad</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+      <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+      <a href="projects.html" class="mr-5 hover:text-gray-900">Projects</a>
+      <a href="contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+    </nav>
+    
+  </div>
+</header>
+<!-- Main-->
+  
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    
+    <div class="lg:flex-grow lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Image Steganography Tool
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed text-gray-700">Image steganography is the practice of concealing information within a visible image. I spent this January 26th weekend working on some simple software to accomplish this. It was
+        an extremely fun project, and it was very valuable to learn more about <a class="text-blue-500" href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES (Advanced Encryption Standard)</a>. The program uses Pillow, tkinter, and the cryptography library.
+        Here's a demonstration of how it works.
+      </p>
+      <p class="mb-8 leading-relaxed text-gray-700">First, type your desired message and enable AES encryption with the select box. You can then select which image to encrypt and where you want to save that image.
+      </p>
+      <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+        <img style="width: 75%; margin: 0.5rem;" src="BISTss1.JPG" alt="">
+        <img style="width: 75%; margin: 0.5rem;" src="BISTss2.JPG" alt="">
+      </div>
+    </p>
+    <p class="mt-8 mb-8 leading-relaxed text-gray-700">An encryption key will be created as seen below and a success message will be displayed.
+    </p>
+    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <img style="width: 75%; margin: 0.5rem;" src="BISTss6.JPG" alt="">
+      <img style="width: 30%; margin: 0.5rem;" src="BISTss3.JPG" alt="">
+    </div>
+    </p>
+    <p class="mt-8 mb-8 leading-relaxed text-gray-700">Now upon selecting "Extract Message" and choosing our encrypted message, the tool will look for the encryption key in the designated folder.
+      The hidden message is displayed! Success.
+    </p>
+    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <img style="width: 66%; margin: 0.5rem;" src="BISTss5.JPG" alt="">
+    </div>
+    <p class="mt-8 mb-8 leading-relaxed text-gray-700">If the user did not have the key, this error message would display and the message
+      remains secure.
+    </p>
+    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <img style="width: 50%; margin: 0.5rem;" src="BISTss7.JPG" alt="">
+    </div>
+    <p class="mt-8 mb-8 leading-relaxed text-gray-700">This weekend project was a lot of fun. I am beginning work on a much larger scale project. It was
+      wonderful to learn more about AES and software development. Thank you for stopping by. Have a great day. <br> <br> "Eat a live frog first thing in the morning, and nothing worse will happen to you the rest of the day." - Mark Twain
+    </p>
+      
+    </div>
+  </div>
+</section>
+
+ <!-- Footer Below-->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="ml-3 text-xl">B.S</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"> 2025 Bleu Strnad —
+        <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@bleumanetstrnad</p>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
