@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bleu Strnad</title>  
+  <meta name="keywords" content="Bleu Strnad">
+  <meta name = "author" content="Bleu Strnad">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class=>
+<!-- Nav Bar-->
+  <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <span class="ml-3 text-xl">Bleu Strnad</span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+      <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+      <a href="projects.html" class="mr-5 hover:text-gray-900">Projects</a>
+      <a href="contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+    </nav>
+    
+  </div>
+</header>
+<!-- Main-->
+  
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    
+    <div class="lg:flex-grow lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What Does Random Look Like?
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed text-gray-700">This is what it looks like.</p>
+      <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+        <img style="width: 75%; margin: 0.5rem;" src="Bleu'sAlrightImages500x500003.png" alt="">
+        <img style="width: 75%; margin: 0.5rem;" src="Bleu'sAlrightImages500x500005.png" alt="">
+        <img style="width: 75%; margin: 0.5rem;" src="Bleu'sAlrightImages500x500006.png" alt="">
+      </div>
+   
+        <p class="ml-3 mr-3 mt-8 mb-8 leading-relaxed text-gray-700">I generated these 500x500 pixel images using a Python program I wrote on a fine January weekend. The program enumerates through each pixel in a desired image size and chooses a random RGB value (0-255) for each pixel.
+        Pretty simple stuff. I used Pillow for image processing. I generated 20+ images and was absolutely enthralled by the results of the program. It was mesmerizing to witness all sorts of intricate patterns upon zooming in on the images.
+        I spent an hour or so generating images to achieve certain patterns. The three images above are my favorite out of the collection of images.
+        </p>
+        <p class="ml-3 mr-3 mb-8 leading-relaxed text-gray-700">However, it is worth noting that the Python random module is not completely random. It is pseudorandom. The random values are generated with a determined algorithm. Though, the result appears to be random for most applications.
+            The module does a more than decent job at emulating randomness in systems where security is not the priority. The module uses set "seed" values to initialize random number generation (or by default a system parameter like current time). Python uses the <a class="text-blue-500" href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister algorithm</a> at the heart of Python's PRNG (pseudo-random number generator).
+            The algorithm is spectacular. You can find more information on it <a class="text-blue-500" href="https://en.wikipedia.org/wiki/Mersenne_Twister">here.</a>
+            </p>
+            
+        <p class="ml-3 mr-3 mb-8 leading-relaxed text-gray-700">That's all folks! These weekend projects will be bite-sized learning/interest projects I undertake for fun when I am not studying. Thank you for your time and I am wishing you a fantastic day! <br><br> “Stay hungry, stay foolish” - Steve Jobs
+                </p>
+
+    </div>
+  </div>
+</section>
+
+ <!-- Footer Below-->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="ml-3 text-xl">B.S</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"> 2025 Bleu Strnad —
+        <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@bleumanetstrnad</p>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
